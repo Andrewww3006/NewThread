@@ -15,7 +15,6 @@ public class Main {
             System.out.println(t.getName() + " has been interrupted");
         }
         System.out.println("Main Tread finished");
-        System.out.println();
 
     }
 }
