@@ -12,7 +12,7 @@ public class NewThread extends Thread{
 
         System.out.println(Thread.currentThread().getName() + " started");
 
-        for (int i=0; i<100; i++)
+        for (int i=0; i<=100; i++)
             System.out.print("i_"+ i + ";");
 
         System.out.println();
